@@ -1,3 +1,4 @@
+load('datedata.mat');
 %get the biggest values of all the columns for data normlaization
 Biggest = max(datedata);
 %Set the 4th column so that it is 1, and will not change the class column
