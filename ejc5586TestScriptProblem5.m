@@ -1,3 +1,9 @@
+%!!!!!!!!!!!!                                                    !!!!!!!!!!
+%!!!!!!!!!!!!   RUN THE PROBLEM 4 SCRIPT BEFORE RUNNING THIS ONE !!!!!!!!!!
+%!!!!!!!!!!!!                                                    !!!!!!!!!!
+%!!!!!!!!!!!!                                                    !!!!!!!!!!
+
+
 load('datedata.mat');
 %get the biggest values of all the columns for data normlaization
 Biggest = max(datedata);
