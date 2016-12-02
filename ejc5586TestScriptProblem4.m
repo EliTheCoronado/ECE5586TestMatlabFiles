@@ -5,6 +5,8 @@ Biggest = max(datedata);
 Biggest(1,4)=1;
 %NOrmalize this stuff
 normdatedata =  bsxfun(@rdivide,datedata,Biggest);
+ptaclass= normdatedata(:,4);
+
 %separate into class 1 and class 3
 meancl1 = [0,0,0];
 meandiv1 = 0;
